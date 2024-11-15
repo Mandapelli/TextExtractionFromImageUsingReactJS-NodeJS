@@ -1,0 +1,98 @@
+/* App.module.css */
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  width: 100%;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.micIcon,
+.recordingIcon,
+.submitBtn,
+.clearBtn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: inline-block;
+}
+
+.micIcon:hover,
+.submitBtn:hover,
+.clearBtn:hover {
+  background-color: #0056b3;
+}
+
+.micIcon:disabled,
+.submitBtn:disabled,
+.clearBtn:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+.recordingIcon.recording {
+  background-color: #ff4d4d;
+}
+
+.textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+form {
+  display: block;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,181 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Navbar styles */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(177, 216, 222);
+  padding: 11px;
+}
+
+nav ul li a {
+  color: white;
+  margin-inline: 11px;
+  font-size: 14px;
+}
+
+/* Header styles */
+.head {
+  font-size: 20px;
+}
+
+/* Form styles */
+form {
+  width: 330px;
+  text-align: center;
+}
+
+form input {
+  width: 95%;
+  padding: 5px;
+  border: 1px solid rgb(39, 206, 244);
+  font-size: 17px;
+  color: rgb(9, 118, 145);
+  margin-top: 21px;
+}
+
+form button {
+  width: 135px;
+  height: 33px;
+  background-color: rgb(35, 134, 105);
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-top: 22px;
+}
+
+form .heading {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.account {
+  text-align: left;
+  margin-top: -12px;
+}
+
+.account p {
+  font-size: 14px;
+  color: rgb(45, 162, 177);
+}
+
+.account a {
+  color: rgb(98, 98, 202);
+}
+
+/* Main container styles */
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0f7fa; /* Light teal background for the page */
+}
+
+/* Signup form styles */
+.main-page form {
+  background-color: #ffffff; /* White background for the form */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  width: 100%;
+  max-width: 400px; /* Limit form width */
+}
+
+.main-page form .heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #00796b; /* Darker teal for the heading */
+  margin-bottom: 20px;
+}
+
+.main-page form input {
+  background-color: #e0f2f1; /* Light teal background for input fields */
+  border: 1px solid #26a69a;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.main-page form button {
+  background-color: #00796b;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main-page form button:hover {
+  background-color: #004d40; /* Darker shade on hover */
+}
+
+/* Account section */
+.main-page .account p {
+  color: #004d40; /* Text color for "Already have an account?" */
+}
+
+/* Login container styles */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2; /* Light gray background */
+}
+
+.login {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white; /* Background color for the login form */
+}
+
+.login h2 {
+  margin-bottom: 20px;
+}
+
+.login form > div {
+  margin-bottom: 15px;
+}
+
+.login label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.login button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(2, 173, 122);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: rgb(3, 206, 145);
+}
